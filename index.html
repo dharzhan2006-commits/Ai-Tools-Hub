@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Tools Hub</title>
+  <meta name="description" content="Discover useful AI tools for writing, design, coding, and productivity.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="#" class="logo">AI Tools Hub<span>.</span></a>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#tools">Explore Tools</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <p class="eyebrow">YOUR AI DISCOVERY PLATFORM</p>
+      <h1>Discover the right AI tool for <span>you.</span></h1>
+      <p class="hero-text">
+        Explore helpful AI tools for creativity, productivity, writing, and coding.
+      </p>
+      <a href="#tools" class="explore-button">Explore AI Tools ↓</a>
+    </section>
+
+    <section class="tools-section" id="tools">
+      <p class="eyebrow">THE DIRECTORY</p>
+      <h2>Explore AI Tools</h2>
+      <p class="section-description">
+        Find tools that help you work smarter and create more.
+      </p>
+
+      <input
+        type="search"
+        id="searchInput"
+        placeholder="Search AI tools..."
+        aria-label="Search AI tools"
+      >
+
+      <div class="categories">
+        <button class="category-button active" data-category="All">All</button>
+        <button class="category-button" data-category="Writing">Writing</button>
+        <button class="category-button" data-category="Image">Image</button>
+        <button class="category-button" data-category="Coding">Coding</button>
+        <button class="category-button" data-category="Productivity">Productivity</button>
+        
+<button class="category-button" data-category="Research">Research</button>
+
+      </div>
+
+      <div class="tools-grid" id="toolsGrid"></div>
+      <p id="emptyMessage" hidden>No matching tools found. Try another search.</p>
+    </section>
+
+    <section class="about-section" id="about">
+      <p class="eyebrow">ABOUT THIS PROJECT</p>
+      <h2>Your guide to the world of AI.</h2>
+      <p>
+        AI Tools Hub is a personal project designed to help people discover
+        useful AI resources in one convenient place.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 AI Tools Hub. A personal project.</p>
+    <p>Always check each tool's official website for current features and pricing.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
