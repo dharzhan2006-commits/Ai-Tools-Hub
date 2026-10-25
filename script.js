@@ -37,6 +37,12 @@ const tools = [
     url: "https://replit.com/"
   },
   {
+    name: "agent-qa",
+    category: "Coding",
+    description: "AI testing for web, Android, and iOS with persistent memory and validated self-improvement.",
+    url: "https://www.vostride.com"
+  },
+  {
     name: "Notion",
     category: "Productivity",
     description: "Organize notes, projects, and information in one workspace.",
